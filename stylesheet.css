@@ -1,0 +1,39 @@
+
+/* This is the universal selector */
+div {
+    color:purple;
+    background-color: yellow;
+}
+
+.important-text {
+    color:orangered;
+    background-color: indigo;
+}
+
+#title {
+    background-color: green;
+}
+
+/* we can reduce redundancy this way*/
+
+p,
+em {
+    color: red;
+    background-color: green;
+}
+
+p {
+    size: 0cap;
+}
+
+em {
+    size: 0ch;
+}
+
+/* chaining selectors */
+/* cannot chain type selectors */
+.select.preview {
+
+    color:white;
+    background-color: black;
+}
